@@ -74,5 +74,3 @@ streamlit run frontend.py
 ```
 O painel abrirá automaticamente no seu navegador no endereço http://localhost:8501.
 
-
-###Desenvolvido por Davi Cruz
