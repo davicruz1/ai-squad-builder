@@ -57,7 +57,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-###3. Iniciar o Backend (FastAPI)
+### 3. Iniciar o Backend (FastAPI)
 Em um terminal (com o venv ativado), inicie o servidor da API. Na primeira execução, o sistema fará o download do modelo NLP (~80MB).
 
 ```bash
@@ -66,7 +66,7 @@ uvicorn app.api:app --reload
 
 A API estará rodando em http://127.0.0.1:8000. Você pode acessar a documentação interativa (Swagger UI) em http://127.0.0.1:8000/docs.
 
-###4. Iniciar o Frontend (Streamlit)
+### 4. Iniciar o Frontend (Streamlit)
 Abra um segundo terminal, ative o venv novamente e inicie a interface:
 
 ```bash
